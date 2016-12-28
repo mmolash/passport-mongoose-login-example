@@ -2,10 +2,9 @@
 This is a sample web-based application that makes use of node.js, express.js, passport.js, and mongoDB to create a localized login platform.
 
 To run the program, first install its dependencies with
-
 `npm install`
 
-Then, to obtain functionality, a create a file `/config/database.js` of the form:
+Then, to obtain functionality, create a file `/config/database.js` of the form:
 
 ```
 module.exports = {
@@ -19,4 +18,4 @@ Finally, to launch the server, simply use
 `node index.js`
 in the directory.
 
-This will start the server on port 8080.
+The webpage will then be accessible on `localhost:8080`
