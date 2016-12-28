@@ -1,0 +1,29 @@
+<div class="container">
+    <h1>Login</h1>
+    
+    {{#if message}}
+        <span class="label alert">{{message}}</span>
+    {{/if}}
+    
+    <form action="/login" method="post">
+        <div class="row">
+            <div class="medium-6 columns">
+                <label>Username
+                    <input type="text" name="username" placeholder="jdoe12">
+                </label>
+            </div>
+            <div class="medium-6 columns">
+                <label>Password
+                    <input type="password" name="password">
+                </label>
+            </div>
+        </div>
+        
+        <button type="submit" class="button">Login</button>
+    </form>
+    
+    <hr>
+    
+    <p>Need an account? <a href="/signup">Signup</a></p>
+    <p>Or go <a href="/">home</a>.</p>
+</div>
